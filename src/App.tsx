@@ -1,46 +1,126 @@
+import "./App.css";
+
 function App() {
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "2rem", fontFamily: "Arial, sans-serif" }}>
-      <header style={{ marginBottom: "2rem" }}>
-        <h1>Bradley Pada</h1>
-        <p>Aspiring Software Engineer | React, TypeScript, Python, SQL, Cybersecurity</p>
-      </header>
+    <div className="app">
+      <nav className="navbar">
+        <h2 className="logo">Bradley Pada</h2>
 
-      <section style={{ marginBottom: "2rem" }}>
-        <h2>About Me</h2>
-        <p>
-          I am a software engineering student and technology professional with a background in IT,
-          cybersecurity, and programming. I am building projects in web development, backend engineering,
-          and data-focused software.
-        </p>
-      </section>
+        <div className="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-      <section style={{ marginBottom: "2rem" }}>
-        <h2>Projects</h2>
-        <ul>
-          <li>Football Prospect Stats API</li>
-          <li>Text-Based Football Management Game</li>
-          <li>Personal Portfolio Website</li>
-        </ul>
-      </section>
+      <main className="container">
+        <header className="hero">
+          <h1>Bradley Pada</h1>
+          <p>Software Engineering Student | IT Support | Aspiring Developer</p>
+        </header>
 
-      <section style={{ marginBottom: "2rem" }}>
-        <h2>Skills</h2>
-        <ul>
-          <li>TypeScript / JavaScript</li>
-          <li>React</li>
-          <li>Python</li>
-          <li>SQL</li>
-          <li>Git / GitHub</li>
-        </ul>
-      </section>
+        <section id="about" className="section">
+          <h2>About Me</h2>
+          <p>
+            I am a software engineering student with experience in IT support,
+            cybersecurity, and programming. I enjoy building projects that grow
+            my skills in web development, backend systems, and software design.
+          </p>
+        </section>
 
-      <section>
-        <h2>Contact</h2>
-        <p>Email: your-email@example.com</p>
-        <p>GitHub: github.com/your-username</p>
-      </section>
-    </main>
+        <section id="projects" className="section">
+          <h2>Projects</h2>
+
+          <div className="project-grid">
+            <div className="card">
+              <h3>Football Prospect Stats API</h3>
+              <p>
+                A project focused on organizing and serving football prospect
+                data.
+              </p>
+              <a
+                className="button"
+                href="https://github.com/bdpada"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+
+            <div className="card">
+              <h3>Text-Based Football Management Game</h3>
+              <p>
+                A game project exploring logic, player decisions, and team
+                management.
+              </p>
+              <a
+                className="button"
+                href="https://github.com/bdpada"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+
+            <div className="card">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                A portfolio built with React and TypeScript, hosted on GitHub
+                Pages.
+              </p>
+              <a
+                className="button"
+                href="https://github.com/bdpada/bdpada.github.io"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" className="section">
+          <h2>Skills</h2>
+          <ul>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Git and GitHub</li>
+          </ul>
+        </section>
+
+        <section id="contact" className="section">
+          <h2>Contact</h2>
+          <p>Email: pada.bradley@gmail.com</p>
+          <p>GitHub: github.com/bdpada</p>
+
+          <div className="button-group">
+            <a
+              className="button"
+              href="https://github.com/bdpada"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Profile
+            </a>
+
+            <a
+              className="button"
+              href="/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Resume
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
   );
 }
 
