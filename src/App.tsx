@@ -34,14 +34,17 @@ function App() {
 
           <div className="project-grid">
             <div className="card">
-              <h3>Football Prospect Stats API</h3>
+              <h3>WeeklyQuest Quiz Platform</h3>
               <p>
-                A project focused on organizing and serving football prospect
-                data.
+                WeeklyQuest is a full-stack web application where admins 
+                can create weekly question sets for groups or teams, 
+                and users can answer active weekly questions, view scores, and track history.
+
+                This is current WIP
               </p>
               <a
                 className="button"
-                href="https://github.com/bdpada"
+                href="https://github.com/bdpada/WeeklyQuest"
                 target="_blank"
                 rel="noreferrer"
               >
