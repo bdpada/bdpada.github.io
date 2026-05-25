@@ -34,12 +34,12 @@ function App() {
 
           <div className="project-grid">
             <div className="card">
-              <h3>WeeklyQuest Quiz Platform</h3>
+              <h3>WeeklyQuest Quiz Platform | TypeScript, React, Node.js, PostgreSQL</h3>
               <p>
                 WeeklyQuest is a full-stack web application where admins 
                 can create weekly question sets for groups or teams, 
                 and users can answer active weekly questions, view scores, and track history.
-
+                <br></br>
                 This is current WIP
               </p>
               <a
@@ -53,10 +53,12 @@ function App() {
             </div>
 
             <div className="card">
-              <h3>Text-Based Football Management Game</h3>
+              <h3>Text-Based Football Management Game | C#</h3>
               <p>
                 A game project exploring logic, player decisions, and team
-                management.
+                management. 
+                <br></br>
+                Currently WIP and privated in GitHub, but will be made public when completed.
               </p>
               <a
                 className="button"
@@ -69,7 +71,7 @@ function App() {
             </div>
 
             <div className="card">
-              <h3>Personal Portfolio Website</h3>
+              <h3>Personal Portfolio Website | TypeScript, React, Node.js</h3>
               <p>
                 A portfolio built with React and TypeScript, hosted on GitHub
                 Pages.
